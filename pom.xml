@@ -18,7 +18,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <start-class>com.baeldung.demo.DemoApplication</start-class>
     </properties>
 
     <dependencies>
@@ -41,6 +41,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.mahesh1111</mainClass>
+                    <layout>JAR</layout>
                 </configuration>
                 <executions>
                     <execution>
