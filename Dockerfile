@@ -1,4 +1,5 @@
 FROM openjdk:11
-EXPOSE 8080
-ADD target/springboot.jar springboot.jar
-ENTRYPOINT ["java","-jar","/springboot.jar"]
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp
+RUN javac Main.java
+CMD ["java", "Main"]
