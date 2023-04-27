@@ -7,5 +7,5 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <groupId>com.javatpoint.application1</groupId>  
   <artifactId>my-app-welcome</artifactId>  
   <version>1</version>  
-  <finalName>springboot-images-new</finalName>
+  
 </project>  
