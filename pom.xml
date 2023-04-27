@@ -9,16 +9,16 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.in28minutes.springboot.rest.example</groupId>
-    <artifactId>spring-boot-2-jpa-with-hibernate-and-h2</artifactId>
+    <groupId>com.mahesh1111</groupId>
+    <artifactId>Docker-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-boot-2-jpa-with-hibernate-and-h2</name>
-    <description>Spring Boot 2, Hibernate, JPA and H2 - Example Project</description>
+    <name>Docker-demo</name>
+    <description>Demo project for springboot</description>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
@@ -31,16 +31,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -57,3 +47,5 @@
         </plugins>
         <finalName>springboot</finalName>
     </build>
+
+</project>
