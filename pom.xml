@@ -12,6 +12,7 @@
     <groupId>com.mahesh1111</groupId>
     <artifactId>Docker-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>Docker-demo</name>
     <description>Demo project for springboot</description>
 
